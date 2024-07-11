@@ -1,4 +1,4 @@
-# Street Expo Mautic Theme
+# Portugal Trip Mautic Theme
 
 ![Thumbnail of Portugal Trip](https://github.com/ricfreire/mautic-theme-portugaltrip/assets/149018829/b8a4fa92-0999-4547-9fbb-0e2ca4319478)
 
