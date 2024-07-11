@@ -1,0 +1,90 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Shippori Antique" href="https://fonts.googleapis.com/css?family=Shippori+Antique"></mj-font>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="Shippori Antique, Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text align="center" font-weight="400" font-size="16px" color="#2E2E2E" line-height="22px"></mj-text>
+    </mj-attributes>
+    <mj-style> .portugal-text a { text-decoration: underline; color: unset; }</mj-style>
+  </mj-head>
+  <mj-body background-color="#C8DAEB">
+    <!-- Webview tag -->
+    <mj-section padding="0px">
+      <mj-column width="100%">
+        <mj-text align="center" color="#414141" font-size="12px" css-class="portugal-text">{webview_text}</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Hero -->
+    <mj-section padding="40px 30px 30px 30px" background-color="#1C85E8" border-radius="10px 10px 0px 0px">
+      <mj-column width="100%">
+        <mj-image align="center" width="160px" padding="0px" src="{{ getAssetUrl('themes/'~template~'/assets/logo.png', null, null, true ) }}" />
+        <mj-spacer height="50px"></mj-spacer>
+        <mj-text padding="0px" color="#c6e0f9" letter-spacing="4px">TRIP IDEAS</mj-text>
+        <mj-spacer height="12px"></mj-spacer>
+        <mj-text color="#fff" padding="0px" font-size="30px" line-height="38px">
+          <p style="line-height:20px">Discover the</p>
+          <p>wonders of Portugal</p>
+        </mj-text>
+        <mj-spacer height="26px"></mj-spacer>
+        <mj-text font-family="Roboto" padding="0px" color="#fff">From the historic streets of Lisbon to the sun-soaked beaches of the Algarve, Portugal offers a tapestry of experiences.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px">
+      <mj-column width="100%">
+        <mj-image padding="0px" src="{{ getAssetUrl('themes/'~template~'/assets/hero.png', null, null, true ) }}"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f0f8ff" padding="60px 30px">
+      <mj-column>
+        <mj-text padding="0px" color="#a9adb0" letter-spacing="4px">ADVENTURE</mj-text>
+        <mj-spacer height="12px"></mj-spacer>
+        <mj-text padding="0px" font-size="26px" line-height="38px">Unleash Your Inner Explorer</mj-text>
+        <mj-spacer height="26px"></mj-spacer>
+        <mj-text font-family="Roboto" padding="0px" color="#505050">Revel in the untouched beauty of Portugal's natural landscapes. From the golden beaches of the Algarve to the lush vineyards of the Douro, Portugal's nature is truly breathtaking. Explore natural parks, trails, and picturesque beaches.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px">
+      <mj-column width="100%">
+        <mj-image padding="0px" src="{{ getAssetUrl('themes/'~template~'/assets/mountains.png', null, null, true ) }}"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F9F9F9" padding="60px 30px">
+      <mj-column>
+        <mj-text padding="0px" color="#a9adb0" letter-spacing="4px">HISTORY</mj-text>
+        <mj-spacer height="12px"></mj-spacer>
+        <mj-text padding="0px" font-size="26px" line-height="38px">Explore Portugal's Hidden Gems</mj-text>
+        <mj-spacer height="26px"></mj-spacer>
+        <mj-text font-family="Roboto" padding="0px" color="#505050">From the stunning palaces of Sintra to the historic cities of Porto and Lisbon, Portugal offers a wealth of fascinating places. Explore the cultural heritage, stunning architecture, and the hospitality of the Portuguese people.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px" background-color="#F9F9F9">
+      <mj-column width="100%">
+        <mj-image padding="0px" src="{{ getAssetUrl('themes/'~template~'/assets/divider.png', null, null, true ) }}"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#1d2c4c" padding="60px 30px">
+      <mj-column>
+        <mj-text color="#fff" padding="0px" font-size="26px" line-height="38px">Ready for the adventure?</mj-text>
+        <mj-spacer height="20px"></mj-spacer>
+        <mj-button font-family="Roboto" font-size="16px" inner-padding="14px 34px" border-radius="40px" background-color="#1C85E8" href="#">Book your trip</mj-button>
+        <mj-spacer height="30px"></mj-spacer>
+        <mj-text font-family="Roboto" padding="0px" color="#fff">
+          <img src="{{ getAssetUrl('themes/'~template~'/assets/phone-icon.png', null, null, true ) }}" height="30px" width="30px" style="vertical-align: middle; padding-right: 5px;" /> 808 00 00 00
+        </mj-text>
+        <mj-spacer height="30px"></mj-spacer>
+        <mj-text font-family="Roboto" padding="0px" color="#fff">From the historic streets of Lisbon to the sun-soaked beaches of the Algarve, Portugal offers a tapestry of experiences.</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Footer -->
+    <mj-section padding="30px" background-color="#101B32">
+      <mj-column width="100%">
+        <mj-text align="center" padding="0px" font-size="12px" color="#9fa4ad"> © Your company </mj-text>
+        <mj-spacer height="6px"></mj-spacer>
+        <mj-text align="center" color="#9fa4ad" font-size="12px" padding="0px" css-class="portugal-text"> {unsubscribe_text} </mj-text>
+        <mj-spacer height="6px"></mj-spacer>
+        <mj-text align="center" color="#9fa4ad" font-size="12px" padding="0px" css-class="portugal-text"> Crafted with love by <a href="https://github.com/ricfreire">Ricardo Freire</a>. Images from Pexels by <a href="https://www.pexels.com/@helena-i-1489651/">Helena I</a>. </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
